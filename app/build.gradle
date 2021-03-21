@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
 }
-
+apply plugin: 'dagger.hilt.android.plugin'
 android {
     compileSdkVersion 29
 
@@ -49,4 +49,7 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
     //Picasso
     implementation 'com.squareup.picasso:picasso:2.71828'
+    //Dagger
+    implementation 'com.google.dagger:hilt-android:2.33-beta'
+    annotationProcessor 'com.google.dagger:hilt-compiler:2.33-beta'
 }

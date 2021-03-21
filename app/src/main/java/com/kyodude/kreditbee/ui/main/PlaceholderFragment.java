@@ -13,6 +13,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import dagger.hilt.android.AndroidEntryPoint;
 
 import com.kyodude.kreditbee.R;
 import com.kyodude.kreditbee.ViewModels.PageViewModel;
@@ -25,6 +26,7 @@ import java.util.List;
  * A placeholder fragment containing a simple view.
  */
 
+@AndroidEntryPoint
 public class PlaceholderFragment extends Fragment {
 
     private static final String ARG_ALBUM_ID = "Album_Id";

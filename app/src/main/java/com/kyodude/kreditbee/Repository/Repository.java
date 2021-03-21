@@ -5,9 +5,10 @@ import android.util.Log;
 import com.kyodude.kreditbee.api.DataModels.Album;
 import com.kyodude.kreditbee.api.DataModels.Photo;
 import com.kyodude.kreditbee.api.KreditBeeAPI;
-import com.kyodude.kreditbee.api.RetrofitClient;
 
 import java.util.List;
+
+import javax.inject.Inject;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
@@ -18,17 +19,14 @@ import retrofit2.Response;
 
 public class Repository {
     private static final String TAG = "Repository";
-    private static final Repository ourInstance = new Repository();
     private final KreditBeeAPI api;
 
     private final MutableLiveData<List<Album>> albumListLiveData = new MutableLiveData<>();
     private final MutableLiveData<List<Photo>> photoListLiveData = new MutableLiveData<>();
 
-    public static Repository getInstance() {
-        return ourInstance;
-    }
-    private Repository() {
-        api = RetrofitClient.getClient();
+    @Inject
+    public Repository(KreditBeeAPI api) {
+        this.api = api;
     }
     public LiveData<List<Album>> getAlbums() {
         api.getAlbums().enqueue(new Callback<List<Album>>() {

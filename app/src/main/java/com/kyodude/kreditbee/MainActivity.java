@@ -8,6 +8,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
+import dagger.hilt.android.AndroidEntryPoint;
 
 
 import com.kyodude.kreditbee.api.DataModels.Album;
@@ -17,6 +18,7 @@ import com.kyodude.kreditbee.adapters.SectionsPagerAdapter;
 
 import java.util.List;
 
+@AndroidEntryPoint
 public class MainActivity extends AppCompatActivity {
     private List<Album> Albums;
 

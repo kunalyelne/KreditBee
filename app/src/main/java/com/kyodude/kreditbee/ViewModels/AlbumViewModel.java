@@ -5,16 +5,19 @@ import com.kyodude.kreditbee.api.DataModels.Album;
 
 import java.util.List;
 
+import javax.inject.Inject;
+
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
+import dagger.hilt.android.lifecycle.HiltViewModel;
 
+@HiltViewModel
 public class AlbumViewModel extends ViewModel {
     private static final String TAG = "MainActivityViewModel";
 
-    private final Repository repository = Repository.getInstance();
     private final LiveData<List<Album>> albumsLiveData;
 
-    public AlbumViewModel() {
+    @Inject public AlbumViewModel(Repository repository) {
         super();
         albumsLiveData = repository.getAlbums();
     }
