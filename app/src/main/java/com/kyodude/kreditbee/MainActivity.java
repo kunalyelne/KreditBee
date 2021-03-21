@@ -11,10 +11,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import dagger.hilt.android.AndroidEntryPoint;
 
 
-import com.kyodude.kreditbee.api.DataModels.Album;
+import com.kyodude.kreditbee.Model.DataModels.Album;
 import com.kyodude.kreditbee.ViewModels.AlbumViewModel;
 
-import com.kyodude.kreditbee.adapters.SectionsPagerAdapter;
+import com.kyodude.kreditbee.View.adapters.SectionsPagerAdapter;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.kyodude.kreditbee.adapters;
+package com.kyodude.kreditbee.View.adapters;
 
 import android.content.Context;
 
@@ -7,8 +7,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.kyodude.kreditbee.api.DataModels.Album;
-import com.kyodude.kreditbee.ui.main.PlaceholderFragment;
+import com.kyodude.kreditbee.Model.DataModels.Album;
+import com.kyodude.kreditbee.View.main.PlaceholderFragment;
 
 import java.util.List;
 

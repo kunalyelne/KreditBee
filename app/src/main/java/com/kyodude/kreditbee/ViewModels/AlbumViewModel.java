@@ -1,7 +1,7 @@
 package com.kyodude.kreditbee.ViewModels;
 
 import com.kyodude.kreditbee.Repository.Repository;
-import com.kyodude.kreditbee.api.DataModels.Album;
+import com.kyodude.kreditbee.Model.DataModels.Album;
 
 import java.util.List;
 

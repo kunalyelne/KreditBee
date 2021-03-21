@@ -1,13 +1,12 @@
-package com.kyodude.kreditbee.api;
+package com.kyodude.kreditbee.Model.api;
 
-import com.kyodude.kreditbee.api.DataModels.Album;
-import com.kyodude.kreditbee.api.DataModels.Photo;
+import com.kyodude.kreditbee.Model.DataModels.Album;
+import com.kyodude.kreditbee.Model.DataModels.Photo;
 
 import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
-import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 public interface KreditBeeAPI {

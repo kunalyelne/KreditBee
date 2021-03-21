@@ -2,9 +2,9 @@ package com.kyodude.kreditbee.Repository;
 
 import android.util.Log;
 
-import com.kyodude.kreditbee.api.DataModels.Album;
-import com.kyodude.kreditbee.api.DataModels.Photo;
-import com.kyodude.kreditbee.api.KreditBeeAPI;
+import com.kyodude.kreditbee.Model.DataModels.Album;
+import com.kyodude.kreditbee.Model.DataModels.Photo;
+import com.kyodude.kreditbee.Model.api.KreditBeeAPI;
 
 import java.util.List;
 

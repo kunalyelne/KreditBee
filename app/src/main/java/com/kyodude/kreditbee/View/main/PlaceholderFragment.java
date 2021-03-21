@@ -1,4 +1,4 @@
-package com.kyodude.kreditbee.ui.main;
+package com.kyodude.kreditbee.View.main;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -17,8 +17,8 @@ import dagger.hilt.android.AndroidEntryPoint;
 
 import com.kyodude.kreditbee.R;
 import com.kyodude.kreditbee.ViewModels.PageViewModel;
-import com.kyodude.kreditbee.adapters.photoAdapter;
-import com.kyodude.kreditbee.api.DataModels.Photo;
+import com.kyodude.kreditbee.View.adapters.photoAdapter;
+import com.kyodude.kreditbee.Model.DataModels.Photo;
 
 import java.util.List;
 

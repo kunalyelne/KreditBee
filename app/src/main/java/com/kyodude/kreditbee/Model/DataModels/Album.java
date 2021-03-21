@@ -1,4 +1,4 @@
-package com.kyodude.kreditbee.api.DataModels;
+package com.kyodude.kreditbee.Model.DataModels;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

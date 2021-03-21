@@ -1,4 +1,4 @@
-package com.kyodude.kreditbee.adapters;
+package com.kyodude.kreditbee.View.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.kyodude.kreditbee.R;
-import com.kyodude.kreditbee.api.DataModels.Photo;
+import com.kyodude.kreditbee.Model.DataModels.Photo;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

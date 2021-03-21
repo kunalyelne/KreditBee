@@ -1,7 +1,7 @@
 package com.kyodude.kreditbee.di;
 
 import com.kyodude.kreditbee.Repository.Repository;
-import com.kyodude.kreditbee.api.KreditBeeAPI;
+import com.kyodude.kreditbee.Model.api.KreditBeeAPI;
 
 import javax.inject.Singleton;
 
